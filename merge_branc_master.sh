@@ -7,6 +7,8 @@
 PROGNAME=`basename $0`
 VERSION="Version 0.1"
 AUTHOR="2015, Nickolay Kuropatkin (email: nictaporuk@yandex.ru)"
+
+
 #
 git checkout master
 #
