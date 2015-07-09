@@ -29,3 +29,25 @@ echo "$MERGE_BRANCH::$NAME_BRANCH"
 #git checkout master
 #
 #git merge --squash -s subtree --no-commit develop
+
+while true ; do
+        case "$BRANCH" in
+                'master')
+                echo $"`basename $0` 0.3"
+                exit 0
+                shift
+
+                ;;
+
+                'develop')
+                echo $"`basename $0` 0.3"
+                exit 0
+                shift
+
+                ;;
+            *)
+            break
+;;
+
+        esac
+done
