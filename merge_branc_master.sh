@@ -10,6 +10,11 @@ AUTHOR="2015, Nickolay Kuropatkin (email: nictaporuk@yandex.ru)"
 
 echo $PROGNAME;
 git commit -am'autocommit'
+
+#
+#
+#
+#
 #
 git checkout master
 #
